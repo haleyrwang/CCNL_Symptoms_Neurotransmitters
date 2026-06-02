@@ -42,9 +42,9 @@ These scripts visualize the PLSc-derived neural signatures associated with speci
 #### Neurotransmitter Receptor Annotation Plotting
 These scripts map the derived brain signatures against 21 PET-derived receptor and transporter density maps across 9 neurotransmitter systems.
 
-- cog+ep-rsfc-receptor-plotting.ipynb: Consolidates the spatial correlation analyses for the RSFC modality across all dimensions (cognition + early psychosis symptoms). This generates the final matrices displaying Spearman ρ values, spin-permutation p-values, and FDR-corrected q-values (Figure 3).
+- cog_ep-rsfc-receptor-plotting.ipynb: Consolidates the spatial correlation analyses for the RSFC modality across all dimensions (cognition + early psychosis symptoms). This generates the final matrices displaying Spearman ρ values, spin-permutation p-values, and FDR-corrected q-values (Figure 3).
 
-- cog+ep-anat-receptor-plotting.ipynb: Consolidates the spatial correlation analyses for the anatomical modality across all dimensions. This generates the statistical heatmaps for the anatomical signatures against the receptor maps (Figure 3).
+- cog_ep-anat-receptor-plotting.ipynb: Consolidates the spatial correlation analyses for the anatomical modality across all dimensions. This generates the statistical heatmaps for the anatomical signatures against the receptor maps (Figure 3).
 
 ####  Data Availability
 The neuroimaging and clinical data used in these analyses are available through the Human Connectome Project for Early Psychosis (HCP-EP Release 1.1) via the NIMH Data Archive. Normative PET maps were acquired via the neuromaps toolbox.
